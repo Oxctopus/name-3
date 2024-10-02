@@ -1,4 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+:root {
+  --color-1: hsl(237.39,46.94%,38.43%);
+  --color-2: hsl(146.25,80%,72.55%);
+  --color-3: hsl(146.9,74.36%,84.71%);
+  --color-4: hsl(0,0%,100%);
+}
+
+body {
+  background: linear-gradient(90deg, var(--color-1) 0%, var(--color-1) 25%, var(--color-2) 25%, var(--color-2) 50%, var(--color-3) 50%, var(--color-3) 75%, var(--color-4) 75%, var(--color-4) 100%);
+}@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 :root {
     --bg-color: #222;
@@ -170,4 +179,3 @@ button:hover {
 .day:hover {
     background-color: var(--outline-color);
 }
-
