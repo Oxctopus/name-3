@@ -197,4 +197,3 @@ window.onload = function () {
     renderMealButtons();
     displayMotivationalQuote();
 };
-
